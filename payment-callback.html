@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Callback</title>
+    <script>
+        // JavaScript to handle redirection
+        window.onload = function () {
+            // Replace "myapp://payment-callback" with your app's deep link
+            window.location.href = "myapp://payment-callback?status=success";
+        };
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+    <p>If you're not redirected automatically, <a href="myapp://payment-callback?status=success">click here</a>.</p>
+</body>
+</html>
